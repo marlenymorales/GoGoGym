@@ -11,12 +11,7 @@ namespace GoGoGym.Data
         public int Id { get; set; }
         public string Name { get; set; }
         public int WorkoutLength { get; set; }
-        public enum Level
-        {
-            Easy = 1,
-            Intermediate = 2,
-            Hard = 3
-        }
+        public Level level { get; set; }
         public string Exercise { get; set; }
         public double Ratings { get; set; }
         public DateTimeOffset CreatedUtc { get; set; }

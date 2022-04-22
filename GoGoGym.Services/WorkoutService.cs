@@ -35,7 +35,6 @@ namespace GoGoGym.Services
                 var query =
                     ctx
                         .Workouts
-                        //.Where(e => e.UserId == _userId)
                         .Select(
                             e =>
                             //{ /*var ratings = e.Ratings;*/
@@ -68,7 +67,7 @@ namespace GoGoGym.Services
                     {
                         Id = entity.Id,
                         Name = entity.Name,
-                       // Ratings = entity.Rating,
+                        //Ratings = entity.Rating,
                         CreatedUtc = entity.CreatedUtc
                     };
             }

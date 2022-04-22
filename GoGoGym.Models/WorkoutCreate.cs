@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GoGoGym.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,11 +18,6 @@ namespace GoGoGym.Models
         [MaxLength(100)]
         public double Rating { get; set; }
 
-        public enum Level
-        {
-            Easy,
-            Intermediate,
-            Hard
-        }
+      public Level level { get; set; }
     }
 }
