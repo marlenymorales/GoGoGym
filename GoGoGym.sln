@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGoGymMVC", "GoGoGymMVC\GoGoGymMVC.csproj", "{B31106C3-2E62-4DE1-8606-552D6CDF2ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGoGym.Data", "GoGoGym.Data\GoGoGym.Data.csproj", "{9CDC6F10-4B7E-47DE-B3F5-958E9CB3FB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGoGym.Models", "GoGoGym.Models\GoGoGym.Models.csproj", "{C63D57D5-E9C6-49AA-A7D2-3D1151190442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGoGym.Services", "GoGoGym.Services\GoGoGym.Services.csproj", "{4F988343-F436-4271-813F-85E544C9C96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B31106C3-2E62-4DE1-8606-552D6CDF2ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31106C3-2E62-4DE1-8606-552D6CDF2ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31106C3-2E62-4DE1-8606-552D6CDF2ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31106C3-2E62-4DE1-8606-552D6CDF2ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDC6F10-4B7E-47DE-B3F5-958E9CB3FB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDC6F10-4B7E-47DE-B3F5-958E9CB3FB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDC6F10-4B7E-47DE-B3F5-958E9CB3FB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDC6F10-4B7E-47DE-B3F5-958E9CB3FB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63D57D5-E9C6-49AA-A7D2-3D1151190442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63D57D5-E9C6-49AA-A7D2-3D1151190442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63D57D5-E9C6-49AA-A7D2-3D1151190442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63D57D5-E9C6-49AA-A7D2-3D1151190442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F988343-F436-4271-813F-85E544C9C96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F988343-F436-4271-813F-85E544C9C96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F988343-F436-4271-813F-85E544C9C96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F988343-F436-4271-813F-85E544C9C96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4202783-258F-4EF6-A9D0-4C6CEE49E4A9}
+	EndGlobalSection
+EndGlobal
